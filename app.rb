@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   get '/index' do
 
-    erb :index 
+    erb :index
   end
 
 
@@ -13,9 +13,9 @@ class App < Sinatra::Base
     erb :create_puppy
   end
 
-  get '/display_puppy' do 
+  get '/display_puppy' do
 
     erb :display_puppy
-  end 
+  end
 
 end
